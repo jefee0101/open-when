@@ -536,11 +536,10 @@ h2 {
 }
 
 .photo-placeholder {
-  min-height: 150px;
+  overflow: hidden;
   display: grid;
-  place-items: center;
-  gap: 4px;
-  padding: 18px;
+  gap: 10px;
+  padding: 10px;
   border: 2px dashed rgba(238, 111, 159, 0.42);
   border-radius: 18px;
   color: var(--deep-rose);
@@ -548,12 +547,19 @@ h2 {
   text-align: center;
 }
 
-.photo-placeholder span {
-  font-weight: 900;
+.photo-placeholder img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  display: block;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 12px 26px rgba(119, 32, 68, 0.14);
 }
 
 .photo-placeholder small {
   display: block;
+  padding: 0 8px 6px;
+  font-size: 0.82rem;
 }
 
 .signature {

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open When</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="ambient-hearts" aria-hidden="true"></div>
+    <div class="sparkle-field" aria-hidden="true"></div>
+
+    <main>
+      <section class="hero">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">A handmade digital love letter</p>
+          <h1>Open When <span class="title-heart" aria-hidden="true"></span></h1>
+          <p class="subtitle">A little place made just for you.</p>
+          <p class="welcome">
+            Hi love, this tiny corner of the internet is yours. Open these letters whenever your heart needs a soft place to land, a reason to smile, or a reminder that you are deeply loved.
+          </p>
+        </div>
+      </section>
+
+      <section class="letters-section" aria-labelledby="lettersTitle">
+        <div class="section-heading">
+          <p class="eyebrow">Choose one envelope</p>
+          <h2 id="lettersTitle">Open When Letters</h2>
+        </div>
+        <div class="letter-grid" id="letterGrid"></div>
+      </section>
+
+      <section class="open-last" aria-labelledby="openLastTitle">
+        <div class="open-last-inner">
+          <div class="last-envelope" aria-hidden="true">
+            <span></span>
+          </div>
+          <div>
+            <p class="eyebrow">Save this one for the end</p>
+            <h2 id="openLastTitle">Open Last</h2>
+            <p>
+              When you have opened every little note, come back here. This last letter is a promise that through every gentle day, difficult moment, quiet laugh, and long conversation, my heart still chooses you.
+            </p>
+            <button class="primary-button" type="button" data-open-last>Open Last Letter</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <button class="secret-heart secret-one" type="button" aria-label="Hidden love note"></button>
+    <button class="secret-heart secret-two" type="button" aria-label="Hidden love note"></button>
+    <button class="secret-heart secret-three" type="button" aria-label="Hidden love note"></button>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <div class="modal" id="letterModal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-letter></div>
+      <article class="letter-shell" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="close-icon" type="button" data-close-letter aria-label="Close letter"></button>
+        <div class="envelope-stage">
+          <div class="envelope">
+            <div class="letter-paper">
+              <p class="letter-kicker">For my favorite person</p>
+              <h2 id="modalTitle"></h2>
+              <div class="photo-space">
+                <div class="photo-placeholder">
+                  <span>Photo space</span>
+                  <small>Add your favorite picture here</small>
+                </div>
+              </div>
+              <p id="modalMessage"></p>
+              <p class="signature">Always yours</p>
+            </div>
+          </div>
+        </div>
+        <button class="primary-button close-letter-button" type="button" data-close-letter>Close Letter</button>
+      </article>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

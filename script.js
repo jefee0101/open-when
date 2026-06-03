@@ -3,65 +3,55 @@ const letters = [
   {
     title: "Open When You're Sad",
     message:
-      "My love, I wish I could sit beside you right now and hold your hand until the heaviness gets softer. Please remember that one hard day does not define your beautiful heart. Rest, breathe, drink some water, and let yourself be loved through this moment."
+      "I'm sorry you feel that way, love. I hope I can make you feel lighter when I'm trying to comfort you, to experience it like it's a breeze of beach air. When I have time, I'll try to visit you with love, hugs, and kisses, maybe food also hehe. If I cannot, view our moments where we are happy and having fun! Be Happy Always, Loveee"
   },
   {
     title: "Open When I Caused You Pain",
     message:
-      "Love, if I hurt you, I am truly sorry. Your feelings matter to me, and I never want my pride to be louder than my care for you. I hope this letter reminds you that I am willing to listen, learn, and choose gentleness with you again."
+      "I'm sorry, darling, for the pain that I have caused you. I know deeply that what I did was wrong. I hope that you can forgive me for my actions. I know that you know that I'm always trying to do better for you, the relationship, and for me. I pray and hope that what I say can translate realistically."
   },
   {
     title: "Open When You Need Motivation",
     message:
-      "You are stronger than the doubt trying to sit beside you. Take one small step, then another. I believe in your mind, your courage, your patience, and the quiet way you keep going even when things are difficult."
+      "You aree the strongesttt person I knowwwww. The independent girl I knowww. And I want you to know that you have to know what to know to take the action that you have to know is to never give up! Be as strong as Hulk, as energetic as a runner(like me), as devoted as your spirit you can dooooo thisssss my swettieeeee piee"
   },
   {
     title: "Open When You're Happy and Sad",
     message:
-      "It is okay to feel two things at once. Your heart is allowed to be complicated, tender, bright, and tired all in the same day. I am proud of every version of you, not only the easy-to-understand parts."
+      "When you're happy and you're sad, clap your hands *clap *clap. Btaw darling, pag selfie ra katong signature pose nmo nga peace, one eye closed."
   },
   {
     title: "Open When You Want To Smile",
     message:
-      "Think of the way I look at you when you are not paying attention. Think of the little jokes only we understand. Think of this: somewhere, somehow, I am loving you with a ridiculous amount of softness."
+      "Unsay tawag sa bisaya nga lovebirds?LANGGGGGGGGGGGAAAAAAAmmmmm"
   },
   {
     title: "Open When You're Stressed",
     message:
-      "Pause for a tiny minute, sweetheart. Unclench your shoulders. Let the next breath be slower than the last. You do not have to solve everything at once. I am here, and we can take life one gentle piece at a time."
+      "You know when I am stressed about something, I just jog it sometimes, darling, or just rest for a couple of minutes. There are also other methods that you can use to relieve stress that you can find on the internet. Pero feel nko mo gana nmo kung mo drink ka ug something cold, maglihok sa lawas, or pa hug rka."
   },
-  {
-    title: "Open When You're Angry",
-    message:
-      "Your anger is not too much for me. It is a signal that something matters. Take the space you need, and when you are ready, I will meet you with patience instead of pressure."
-  },
-  {
+  { 
     title: "Open When You're Overthinking",
     message:
-      "My love, your mind is trying to protect you, but you do not have to believe every scary thought it makes. Come back to what is true: you are loved, you are wanted, and you are not alone in this."
-  },
-  {
-    title: "Open When You Feel Something Is Off",
-    message:
-      "If something feels strange, we can talk about it. No guessing games, no quiet distance, no pretending. I want us to be a place where honesty feels safe and love feels steady."
+      "Haloooo my loveee if magoverthink gani ka, d ra dapat ana raman jd na. Pero fr, if magoverthink ka about something, just look at the bright side always ha. I know unavoidable man jd na d magoverthink for any reasons, and imo na sya dawaton nga naa jd na nga perspective, but I know that your prayers are stronger and you're full of hope. Always be hopeful loveeeee"
   },
   {
     title: "Open When You Miss Me",
     message:
-      "I miss you too, probably more than I will admit gracefully. Until I can be beside you again, keep this letter close and remember that my heart always knows the way back to you."
+      "I miss you too and moreee sooo muchhh my babyy. There are times that I wish I just want to hug you when you're very far away from me. There are times that i just want to feel your presence. And lastly, there are times that I just simply want your love. I reminisce about the times that we are together. Look at our photos and vids together, and imagine our cute and intimate moments together. When i missed you i just simply visualize those times when we have our beautiful moments. Kung mingawon man ka darling, just find our moments, or I'll find a way to get to you mwhehe."
   }
 ];
 
 const finalLetter = {
   title: "Open Last",
   message:
-    "My dearest love, thank you for being the person who makes ordinary days feel softer and brighter. I made this little place so you could return to my love whenever you need it. I promise to keep choosing you with patience, laughter, honesty, and care. You are my favorite thought, my safest feeling, and the sweetest part of my days."
+    "Sunod rani"
 };
 
 const secretMessages = [
-  "Tiny secret: you are my favorite hello.",
-  "Hidden note: your smile makes my whole day softer.",
-  "Little truth: I am so lucky to love you."
+  "Tiny secret: ",
+  "Hidden note: ",
+  "Little truth: "
 ];
 
 const grid = document.querySelector("#letterGrid");
